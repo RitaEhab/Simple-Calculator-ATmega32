@@ -33,14 +33,14 @@
 #define EN(x) if(x == 0) CLRBIT(PORTA,2); else SETBIT(PORTA,2);
 
 /* LCD Commands */
-#define SHIFT_LEFT			0x18
-#define SHIFT_RIGHT			0x1C
+#define SHIFT_LEFT			  0x18
+#define SHIFT_RIGHT			  0x1C
 #define MOVE_CURSOR_LEFT	0x10
 #define MOVE_CURSOR_RIGHT	0x14
-#define CLEAR_DISPLAY		0x01
-#define CURSOR_ON			0x0E
-#define CURSOR_OFF			0x0C
-#define NEXT_LINE			0xC0
+#define CLEAR_DISPLAY		  0x01
+#define CURSOR_ON			    0x0E
+#define CURSOR_OFF			  0x0C
+#define NEXT_LINE			    0xC0
 
 
 /*
